@@ -1,0 +1,52 @@
+# This is basic yaml file. 
+#It contains key-value pairs. Indentation is important for yaml files.
+# Look at the code below.
+
+
+# key -> value
+
+
+courses: # indentation is the most important thing in yaml files.
+  product_name: "Laptop"
+  version: 1.0
+  price: 100
+  color: "Black"
+  brand: "Dell"
+  in_stock: true
+  release_date: 2021-01-01
+  sold_units: null
+  warranty: 
+    warranty_years: 2
+    warranty_type: "Manufacturer"
+  features:
+    - core i5 processor
+    - 8GB RAM
+    - 1TB SSD
+    - 15.6 inch display
+  tags: [laptop, dell, core i5, 8GB RAM, 1TB SSD, 15.6 inch display] # this are similar to the previson one.
+  reviews: 
+    - name: "AR Dhrubo"
+      rating: 5
+      comment: "Good product"
+    - name: "Fariduzzaman Ifty"
+      rating: 4
+      comment: "Nice product"
+    - {name: "Abdur Rahman", rating: 3, comment: "Average product"} # this is also a way to write the same thing.
+  short_description: >
+    This is a laptop with core i5 processor, 8GB RAM, 1TB SSD, 15.6 inch display.
+    It is a good product for daily use.
+  long_description: |
+    This is a laptop with core i5 processor, 8GB RAM, 1TB SSD, 15.6 inch display.
+      It is a good product for daily use.
+    It has a warranty of 2 years. 
+
+
+
+
+
+
+
+
+
+
+
